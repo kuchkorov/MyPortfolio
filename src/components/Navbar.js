@@ -2,13 +2,13 @@ import React from 'react';
 
 function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div className="container">
-            <a className="navbar-brand logo" href="#">Masterdeg.uz</a>
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <i className="fas fa-bars"></i>
+            <a class="navbar-brand" href="#" style={{fontSize: 30}}>Masterdeg.uz</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
                             <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
@@ -31,7 +31,7 @@ function Navbar() {
                     </ul>
                 </div>
             </div>
-            </nav>
+        </nav>
     )
 }
 
