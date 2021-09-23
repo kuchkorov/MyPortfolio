@@ -2,7 +2,7 @@ import React from 'react';
 
 function Navbar() {
     return (
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <div className="container">
             <a class="navbar-brand" href="#" style={{fontSize: 30}}>Masterdeg.uz</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -11,22 +11,19 @@ function Navbar() {
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+                            <a className="nav-link" href="#header">Home <span className="sr-only">(current)</span></a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">about me</a>
+                            <a className="nav-link" href="#about">about me</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">services</a>
+                            <a className="nav-link" href="#skill">skills</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">how work</a>
+                            <a className="nav-link" href="#portfolio">portfolio</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">portfolio</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">contact</a>
+                            <a className="nav-link" href="#contact">contact</a>
                         </li>
                     </ul>
                 </div>

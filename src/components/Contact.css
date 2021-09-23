@@ -1,0 +1,9 @@
+
+.contact-page {
+    background-color: rgb(221, 221, 221);
+    padding: 80px 0;
+}
+
+.form-group textarea {
+    padding: 10px;
+}

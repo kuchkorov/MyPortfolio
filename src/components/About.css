@@ -1,0 +1,15 @@
+.about-me {
+    padding: 80px 0;
+}
+
+.img-avatar img {
+    width: 400px;
+    border-radius: 50%;
+    border: 2px solid var(--primary-orange);
+    margin-top: 50px;
+    padding: 5px;
+}
+
+.about-text {
+    margin-top: 50px;
+}

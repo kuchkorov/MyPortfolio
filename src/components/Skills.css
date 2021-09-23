@@ -1,0 +1,23 @@
+
+* {box-sizing:border-box}
+
+.skills {
+    background-color: rgb(221, 221, 221);
+    padding: 80px 0;
+}
+
+
+.skill {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  padding-right: 10px;
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #04AA6D;} 
+.css {width: 80%; background-color: #2196F3;} 
+.js {width: 60%; background-color: #c7c42a;} 
+.React {width: 50%; background-color: #5b78af;} 
+.nodejs {width: 30%; background-color: #54A144;} 
+.mongoDd {width: 20%; background-color: #90C373;} 
