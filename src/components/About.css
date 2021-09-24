@@ -12,4 +12,19 @@
 
 .about-text {
     margin-top: 50px;
+    text-align: justify;
 }
+
+.about-text h1 {
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-device-width : 360px) and (max-device-width : 768px) {
+    .img-avatar img {
+        width: 300px;
+    }
+
+    .about-me h1 {
+        text-align: center;
+    }
+  }

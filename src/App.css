@@ -27,6 +27,8 @@ body {
 }
 
 /***************** NAVBAR *********************/
+
+
 .logo {
   width: 16.25rem;
   font-weight: bold;
@@ -57,6 +59,12 @@ nav ul li a {
   border-top: 0.1875rem solid var(--primary-orange);
 }
 
+@media only screen and (min-device-width : 320px) and (max-device-width : 991px) {
+  nav.navbar {
+    width: 100%;
+  }
+}
+
 /***************** HEADER *********************/
 
 .header-wrapper {
@@ -65,13 +73,16 @@ nav ul li a {
   background-size: cover;
   background-position: center;
   height: 100vh;
+  width: 100%;
 }
 
-@media(max-width:768px) {
-  .header-wrapper {
-    background-position: top;
-  }
+.header-wrapper .down-icon {
+  position: absolute;
+  /* margin-top: 800px; */
+  bottom: 10px;
+  font-size: 40px;
 }
+
 
 .main-info {
   display: flex;
@@ -91,6 +102,14 @@ nav ul li a {
   text-transform: uppercase;
   font-weight: 600;
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 991px) {
+  .header-wrapper {
+    background-position: top;
+    width: 100%;
+  }
+}
+
 
 @media(max-width:768px) {
   .main-info h1 {
@@ -127,5 +146,64 @@ nav ul li a {
   .btn-main-offer {
     padding: 8px;
     font-size: 1rem;
+  }
+}
+
+/* Scroll-down */
+
+.arrows {
+	width: 60px;
+	height: 72px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 20px;
+}
+
+.arrows path {
+	stroke: #d7e0e6;
+	fill: transparent;
+  font-size: 140px;
+	stroke-width: 2px;	
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2s infinite; 
+}
+
+@keyframes arrow
+{
+  0% {opacity:0}
+  40% {opacity:1}
+  80% {opacity:0}
+  100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+  0% {opacity:0}
+  40% {opacity:1}
+  80% {opacity:0}
+  100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {	
+	animation-delay:0s;
+	-webkit-animation-delay:0s; /* Safari 和 Chrome */
+}
+
+@media (min-width: 360px) and (max-width: 772px) {
+  .Scroll-down .arrows path {
+    font-size: 110px;
+    background: purple;
+    color: red;
   }
 }

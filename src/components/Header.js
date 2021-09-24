@@ -13,7 +13,16 @@ const Header = () => {
                     backSpeed={60}
                     loop
                 />
-                <a href="#" className="btn-main-offer">Contact Me</a>
+                <a href="#contact" className="btn-main-offer">Contact Me</a>
+                <div class="scroll-down" id="">
+            <a href="#about">
+                <svg className="arrows">
+                    <path className="a1" d="M0 0 L30 32 L60 0"></path>
+                    <path className="a2" d="M0 20 L30 52 L60 20"></path>
+                    <path className="a3" d="M0 40 L30 72 L60 40"></path>
+                </svg>
+            </a>
+        </div>
             </div>
         </div>
     )

@@ -14,13 +14,13 @@ const Portfolio = () => {
                 <div className="container">
                     <h1 className="text-center">Portfolio</h1>
                     <div className="row pt-5">
-                        <div className="col-md-3">
+                        <div className="col-md-3 mb-3">
                             <a href="http://cyberlaw.uz" target="_blank"><img src={ cybwelaw } alt="cyberlaw.uz" className="img-fluid" /></a>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3 mb-3">
                             <a href="https://agrixim.uz" target="_blank"><img src={ agrixim } alt="agrixim.uz" className="img-fluid" /></a>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3 mb-3">
                             <a href="https://brokermarket.uz" target="_blank"><img src={ brokermarket } alt="brokermarket.uz" className="img-fluid" /></a>
                         </div>
                         <div className="col-md-3">
