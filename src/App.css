@@ -59,17 +59,17 @@ nav ul li a {
   border-top: 0.1875rem solid var(--primary-orange);
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 991px) {
+/* @media only screen and (min-device-width : 320px) and (max-device-width : 991px) {
   nav.navbar {
     width: 100%;
   }
-}
+} */
 
 /***************** HEADER *********************/
 
 .header-wrapper {
   position: relative;
-  background: url(./img/header-bg.jpg);
+  background: url(./img/header-bg2.jpeg);
   background-size: cover;
   background-position: center;
   height: 100vh;

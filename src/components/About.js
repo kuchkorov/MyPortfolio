@@ -19,7 +19,7 @@ const About = () => {
                         <div className="col-md-6 img-avatar" data-aos="fade-right" data-aos-duration="1500">
                             <img src={ Avatar } className=""  />
                         </div>
-                        <div className="col-md-6 about-text" data-aos="fade-left" data-aos-duration="1500">
+                        <div className="col-md-6 about-text" data-aos="fade-right" data-aos-duration="1500">
                             <h1>I am Frontend Developer</h1>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, quasi fugiat? Culpa autem fugiat vel atque a est, 
                                 repellat dolorem. Ea minima velit eveniet? Assumenda consequatur quia culpa impedit hic, modi obcaecati eum nostrum! 

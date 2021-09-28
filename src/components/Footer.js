@@ -13,7 +13,7 @@ const Footer = () => {
                     <div className="col-md-6">
                         <div className="social-icons text-center">
                             <i className="fas fa-phone-alt"><span style={{marginLeft: 8}}>+998 99 846-32-38</span></i>
-                            <i className="fa fa-telegram" style={{Color: "blue", marginLeft: 10}}></i>
+                            <a href="https://t.me/Master_Deg" target="_blank"><i className="fa fa-telegram" style={{Color: "blue", marginLeft: 10}}></i></a>
                         </div>
                     </div>
                 </div>
